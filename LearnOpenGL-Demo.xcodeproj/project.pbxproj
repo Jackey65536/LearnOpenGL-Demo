@@ -87,6 +87,7 @@
 		5637C8BC233E00C000A2C70B /* LearnOpenGL-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5637C913233E14BD00A2C70B /* New Group */,
 				5637C911233E0CF500A2C70B /* glad.c */,
 				5637C8BD233E00C000A2C70B /* main.cpp */,
 			);
@@ -157,6 +158,13 @@
 				5637C90E233E0CEC00A2C70B /* libGLEW.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		5637C913233E14BD00A2C70B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
