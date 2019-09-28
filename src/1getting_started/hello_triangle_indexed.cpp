@@ -8,15 +8,18 @@ namespace Ch01 {
         const char* vertexShaderSource = "#version 330 core\n"
         // location指定输入变量
         "layout (location = 0) in vec3 aPos;\n"
+        "out vec4 vertexColor;\n"
         "void main(void)\n"
         "{\n"
         "   gl_Position = vec4(aPos, 1.0);\n"
+        "   vertexColor = vec4(0.5, 0.0, 0.0, 1.0);\n"
         "}\0";
         const char* fragmentShaderSource = "#version 330 core\n"
         "out vec4 FragColor;\n"
+        "in vec4 vertexColor;\n"
         "void main(void)\n"
         "{\n"
-        "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0);\n"
+        "   FragColor = vertexColor;\n"
         "}\0";
         
         void framebuffer_size_callback(GLFWwindow* window, int width, int height)
@@ -118,7 +121,7 @@ namespace Ch01 {
             /*
              告诉OpenGL该如何解析顶点数据（应用到逐个顶点属性上）
              param1:指定我们要配置的顶点属性
-             param2:指定顶点属性的大小。顶点属性是一个vec3，他由3个值组成，所在大小是3
+             param2:指定顶点属性的大小。坐标是一个vec3，他由3个值组成，所以坐标的顶点属性大小是3
              param3:指定数据的类型
              param4:是否希望数据被标准化(Normalize)。
              param5:步长(Stride)，他告诉我们在连续的顶点属性组之间的间隔。由于下个组位置数据在3个float之后，所以这里设置为3*sizeof(float)

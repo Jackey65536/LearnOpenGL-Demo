@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D6DF372233E4B6100545120 /* hello_triangle_indexed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */; };
-		0D6DF375233E62C300545120 /* shader_interpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DF374233E62C300545120 /* shader_interpolation.cpp */; };
-		5637C8BE233E00C000A2C70B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C8BD233E00C000A2C70B /* main.cpp */; };
 		5637C8C6233E016200A2C70B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C8C5233E016200A2C70B /* IOKit.framework */; };
 		5637C8C8233E016700A2C70B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C8C7233E016700A2C70B /* Cocoa.framework */; };
 		5637C8CA233E016E00A2C70B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C8C9233E016E00A2C70B /* CoreVideo.framework */; };
@@ -17,25 +15,32 @@
 		5637C90F233E0CEC00A2C70B /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C90D233E0CEC00A2C70B /* libglfw3.a */; };
 		5637C910233E0CEC00A2C70B /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C90E233E0CEC00A2C70B /* libGLEW.a */; };
 		5637C912233E0CF500A2C70B /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 5637C911233E0CF500A2C70B /* glad.c */; };
+		5637C915233EFF8E00A2C70B /* shaders_interpolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C914233EFF8E00A2C70B /* shaders_interpolation.cpp */; };
+		5637C917233F041200A2C70B /* shaders_uniform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C916233F041200A2C70B /* shaders_uniform.cpp */; };
+		5637C91E233F16F800A2C70B /* shaders_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C91B233F16F800A2C70B /* shaders_class.cpp */; };
+		5637C92C233F269E00A2C70B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C92B233F269E00A2C70B /* main.cpp */; };
+		5637C9BC233F429C00A2C70B /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9BB233F429C00A2C70B /* stb_image.cpp */; };
+		5637C9BF233F442B00A2C70B /* textures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9BE233F442B00A2C70B /* textures.cpp */; };
+		5637C9C1233F44BA00A2C70B /* resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5637C9C0233F44A900A2C70B /* resources */; };
+		5637C9C3233F56E800A2C70B /* textures_combined.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5637C9C2233F56E800A2C70B /* textures_combined.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5637C8B8233E00C000A2C70B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				5637C9C1233F44BA00A2C70B /* resources in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_triangle_indexed.cpp; sourceTree = "<group>"; };
-		0D6DF374233E62C300545120 /* shader_interpolation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shader_interpolation.cpp; sourceTree = "<group>"; };
 		5637C8BA233E00C000A2C70B /* LearnOpenGL-Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LearnOpenGL-Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5637C8BD233E00C000A2C70B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5637C8C5233E016200A2C70B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		5637C8C7233E016700A2C70B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5637C8C9233E016E00A2C70B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -50,6 +55,16 @@
 		5637C90D233E0CEC00A2C70B /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
 		5637C90E233E0CEC00A2C70B /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLEW.a; sourceTree = "<group>"; };
 		5637C911233E0CF500A2C70B /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		5637C914233EFF8E00A2C70B /* shaders_interpolation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders_interpolation.cpp; sourceTree = "<group>"; };
+		5637C916233F041200A2C70B /* shaders_uniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders_uniform.cpp; sourceTree = "<group>"; };
+		5637C919233F0D9200A2C70B /* shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
+		5637C91B233F16F800A2C70B /* shaders_class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders_class.cpp; sourceTree = "<group>"; };
+		5637C92B233F269E00A2C70B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5637C9BA233F3DF100A2C70B /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		5637C9BB233F429C00A2C70B /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stb_image.cpp; sourceTree = "<group>"; };
+		5637C9BE233F442B00A2C70B /* textures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = textures.cpp; sourceTree = "<group>"; };
+		5637C9C0233F44A900A2C70B /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		5637C9C2233F56E800A2C70B /* textures_combined.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = textures_combined.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +87,11 @@
 		0D6DF36F233E4ACF00545120 /* 1getting_started */ = {
 			isa = PBXGroup;
 			children = (
-				0D6DF374233E62C300545120 /* shader_interpolation.cpp */,
+				5637C9C2233F56E800A2C70B /* textures_combined.cpp */,
+				5637C91B233F16F800A2C70B /* shaders_class.cpp */,
+				5637C9BE233F442B00A2C70B /* textures.cpp */,
+				5637C916233F041200A2C70B /* shaders_uniform.cpp */,
+				5637C914233EFF8E00A2C70B /* shaders_interpolation.cpp */,
 				0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */,
 			);
 			path = 1getting_started;
@@ -82,10 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				5637C900233E0CEC00A2C70B /* includes */,
+				5637C8BC233E00C000A2C70B /* src */,
 				5637C90C233E0CEC00A2C70B /* lib */,
-				5637C8BC233E00C000A2C70B /* LearnOpenGL-Demo */,
-				5637C8BB233E00C000A2C70B /* Products */,
 				5637C8C4233E016100A2C70B /* Frameworks */,
+				5637C8BB233E00C000A2C70B /* Products */,
+				5637C9C0233F44A900A2C70B /* resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,14 +117,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5637C8BC233E00C000A2C70B /* LearnOpenGL-Demo */ = {
+		5637C8BC233E00C000A2C70B /* src */ = {
 			isa = PBXGroup;
 			children = (
 				0D6DF36F233E4ACF00545120 /* 1getting_started */,
 				5637C911233E0CF500A2C70B /* glad.c */,
-				5637C8BD233E00C000A2C70B /* main.cpp */,
+				5637C9BB233F429C00A2C70B /* stb_image.cpp */,
+				5637C92B233F269E00A2C70B /* main.cpp */,
 			);
-			path = "LearnOpenGL-Demo";
+			path = src;
 			sourceTree = "<group>";
 		};
 		5637C8C4233E016100A2C70B /* Frameworks */ = {
@@ -121,10 +142,12 @@
 		5637C900233E0CEC00A2C70B /* includes */ = {
 			isa = PBXGroup;
 			children = (
+				5637C918233F0D6D00A2C70B /* learnopengl */,
 				5637C901233E0CEC00A2C70B /* KHR */,
 				5637C903233E0CEC00A2C70B /* glad */,
 				5637C905233E0CEC00A2C70B /* GL */,
 				5637C909233E0CEC00A2C70B /* GLFW */,
+				5637C9BA233F3DF100A2C70B /* stb_image.h */,
 			);
 			path = includes;
 			sourceTree = "<group>";
@@ -171,6 +194,14 @@
 				5637C90E233E0CEC00A2C70B /* libGLEW.a */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		5637C918233F0D6D00A2C70B /* learnopengl */ = {
+			isa = PBXGroup;
+			children = (
+				5637C919233F0D9200A2C70B /* shader.h */,
+			);
+			path = learnopengl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5637C8BE233E00C000A2C70B /* main.cpp in Sources */,
+				5637C917233F041200A2C70B /* shaders_uniform.cpp in Sources */,
+				5637C9BF233F442B00A2C70B /* textures.cpp in Sources */,
 				5637C912233E0CF500A2C70B /* glad.c in Sources */,
+				5637C9BC233F429C00A2C70B /* stb_image.cpp in Sources */,
+				5637C91E233F16F800A2C70B /* shaders_class.cpp in Sources */,
+				5637C9C3233F56E800A2C70B /* textures_combined.cpp in Sources */,
+				5637C92C233F269E00A2C70B /* main.cpp in Sources */,
 				0D6DF372233E4B6100545120 /* hello_triangle_indexed.cpp in Sources */,
-				0D6DF375233E62C300545120 /* shader_interpolation.cpp in Sources */,
+				5637C915233EFF8E00A2C70B /* shaders_interpolation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
