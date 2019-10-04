@@ -7,6 +7,7 @@
 namespace Ch01 {
     namespace TexturesCombined {
         float mixValue = 0.2f;
+        float roateValue = 0.0f;
         void framebuffer_size_callback(GLFWwindow* window, int width, int height)
         {
             glViewport(0, 0, width, height);
@@ -35,6 +36,16 @@ namespace Ch01 {
                     mixValue = 0.0f;
                 }
                 std::cout << "mixValue = " << mixValue << std::endl;
+            }
+            if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS)
+            {
+                roateValue += 0.1f;
+                std::cout << "roateValue = " << roateValue << std::endl;
+            }
+            if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS)
+            {
+                roateValue -= 0.1f;
+                std::cout << "roateValue = " << roateValue << std::endl;
             }
         }
         
@@ -156,6 +167,7 @@ namespace Ch01 {
                 glBindTexture(GL_TEXTURE_2D, texture2);
 
                 ourShader.setFloat("mixValue", mixValue);
+                ourShader.setInt("roateValue", (int)roateValue);
                 
                 ourShader.use();
                 glBindVertexArray(VAO);
