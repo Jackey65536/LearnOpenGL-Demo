@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		0D3B161C2341E510009D538F /* glm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B14BD2341E50F009D538F /* glm.cpp */; };
 		0D3B161E2341EF66009D538F /* transformations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3B161D2341EF66009D538F /* transformations.cpp */; };
+		0D3C590E2348558700E12523 /* materials.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C590D2348558600E12523 /* materials.cpp */; };
+		0D3C59102348857700E12523 /* lighting_maps_diffuse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C590F2348857700E12523 /* lighting_maps_diffuse.cpp */; };
+		0D3C59142348918500E12523 /* lighting_maps_specular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C59132348918500E12523 /* lighting_maps_specular.cpp */; };
+		0D3C591623489C5600E12523 /* lighting_map_emission.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C591523489C5600E12523 /* lighting_map_emission.cpp */; };
 		0D3DAC38234627BD0053AA45 /* coordinate_systems_multiple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DAC37234627BD0053AA45 /* coordinate_systems_multiple.cpp */; };
 		0D3DAC3E234657170053AA45 /* camera_keyboard_dt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DAC3D234657170053AA45 /* camera_keyboard_dt.cpp */; };
 		0D3F3A932346F0CE0025F46D /* camera_mouse_zoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F3A922346F0CE0025F46D /* camera_mouse_zoom.cpp */; };
 		0D3F3A9623473C040025F46D /* colors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F3A9523473C040025F46D /* colors.cpp */; };
 		0D3F3A99234788EC0025F46D /* basic_lighting_diffuse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F3A98234788EC0025F46D /* basic_lighting_diffuse.cpp */; };
 		0D3F3A9B23479BFB0025F46D /* basic_lighting_specular.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F3A9A23479BFB0025F46D /* basic_lighting_specular.cpp */; };
+		0D42265F2349E9D000541D50 /* light_casters_directional.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D42265E2349E9D000541D50 /* light_casters_directional.cpp */; };
+		0D4226612349F05100541D50 /* light_casters_point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D4226602349F05100541D50 /* light_casters_point.cpp */; };
+		0D422663234A10CB00541D50 /* light_casters_spot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D422662234A10CA00541D50 /* light_casters_spot.cpp */; };
+		0D422665234A17AA00541D50 /* light_casters_soft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D422664234A17AA00541D50 /* light_casters_soft.cpp */; };
+		0D422667234A302A00541D50 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D422666234A302A00541D50 /* test.cpp */; };
+		0D422669234A327600541D50 /* multiple_light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D422668234A327600541D50 /* multiple_light.cpp */; };
 		0D6DF372233E4B6100545120 /* hello_triangle_indexed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */; };
 		0D70D3512344D46D0067DD3F /* coordinate_systems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D70D3502344D46D0067DD3F /* coordinate_systems.cpp */; };
 		0D70D3552344E7800067DD3F /* coordinate_systems_depth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D70D3542344E7800067DD3F /* coordinate_systems_depth.cpp */; };
@@ -423,6 +433,10 @@
 		0D3B161A2341E510009D538F /* vec4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vec4.hpp; sourceTree = "<group>"; };
 		0D3B161B2341E510009D538F /* vector_relational.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vector_relational.hpp; sourceTree = "<group>"; };
 		0D3B161D2341EF66009D538F /* transformations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transformations.cpp; sourceTree = "<group>"; };
+		0D3C590D2348558600E12523 /* materials.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = materials.cpp; sourceTree = "<group>"; };
+		0D3C590F2348857700E12523 /* lighting_maps_diffuse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lighting_maps_diffuse.cpp; sourceTree = "<group>"; };
+		0D3C59132348918500E12523 /* lighting_maps_specular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lighting_maps_specular.cpp; sourceTree = "<group>"; };
+		0D3C591523489C5600E12523 /* lighting_map_emission.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lighting_map_emission.cpp; sourceTree = "<group>"; };
 		0D3DAC37234627BD0053AA45 /* coordinate_systems_multiple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems_multiple.cpp; sourceTree = "<group>"; };
 		0D3DAC3D234657170053AA45 /* camera_keyboard_dt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera_keyboard_dt.cpp; sourceTree = "<group>"; };
 		0D3F3A922346F0CE0025F46D /* camera_mouse_zoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera_mouse_zoom.cpp; sourceTree = "<group>"; };
@@ -430,6 +444,12 @@
 		0D3F3A9723476C820025F46D /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
 		0D3F3A98234788EC0025F46D /* basic_lighting_diffuse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basic_lighting_diffuse.cpp; sourceTree = "<group>"; };
 		0D3F3A9A23479BFB0025F46D /* basic_lighting_specular.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basic_lighting_specular.cpp; sourceTree = "<group>"; };
+		0D42265E2349E9D000541D50 /* light_casters_directional.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = light_casters_directional.cpp; sourceTree = "<group>"; };
+		0D4226602349F05100541D50 /* light_casters_point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = light_casters_point.cpp; sourceTree = "<group>"; };
+		0D422662234A10CA00541D50 /* light_casters_spot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = light_casters_spot.cpp; sourceTree = "<group>"; };
+		0D422664234A17AA00541D50 /* light_casters_soft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = light_casters_soft.cpp; sourceTree = "<group>"; };
+		0D422666234A302A00541D50 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		0D422668234A327600541D50 /* multiple_light.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiple_light.cpp; sourceTree = "<group>"; };
 		0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_triangle_indexed.cpp; sourceTree = "<group>"; };
 		0D70D3502344D46D0067DD3F /* coordinate_systems.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems.cpp; sourceTree = "<group>"; };
 		0D70D3542344E7800067DD3F /* coordinate_systems_depth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems_depth.cpp; sourceTree = "<group>"; };
@@ -900,6 +920,15 @@
 		0D3F3A9423473C040025F46D /* 2lighting */ = {
 			isa = PBXGroup;
 			children = (
+				0D422668234A327600541D50 /* multiple_light.cpp */,
+				0D422664234A17AA00541D50 /* light_casters_soft.cpp */,
+				0D422662234A10CA00541D50 /* light_casters_spot.cpp */,
+				0D4226602349F05100541D50 /* light_casters_point.cpp */,
+				0D42265E2349E9D000541D50 /* light_casters_directional.cpp */,
+				0D3C591523489C5600E12523 /* lighting_map_emission.cpp */,
+				0D3C59132348918500E12523 /* lighting_maps_specular.cpp */,
+				0D3C590F2348857700E12523 /* lighting_maps_diffuse.cpp */,
+				0D3C590D2348558600E12523 /* materials.cpp */,
 				0D3F3A9A23479BFB0025F46D /* basic_lighting_specular.cpp */,
 				0D3F3A98234788EC0025F46D /* basic_lighting_diffuse.cpp */,
 				0D3F3A9523473C040025F46D /* colors.cpp */,
@@ -954,6 +983,7 @@
 				5637C911233E0CF500A2C70B /* glad.c */,
 				5637C9BB233F429C00A2C70B /* stb_image.cpp */,
 				5637C92B233F269E00A2C70B /* main.cpp */,
+				0D422666234A302A00541D50 /* test.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -1093,25 +1123,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4226612349F05100541D50 /* light_casters_point.cpp in Sources */,
 				5637C917233F041200A2C70B /* shaders_uniform.cpp in Sources */,
 				5637C9BF233F442B00A2C70B /* textures.cpp in Sources */,
 				0D70D3512344D46D0067DD3F /* coordinate_systems.cpp in Sources */,
+				0D3C59102348857700E12523 /* lighting_maps_diffuse.cpp in Sources */,
+				0D422667234A302A00541D50 /* test.cpp in Sources */,
 				5637C912233E0CF500A2C70B /* glad.c in Sources */,
+				0D3C59142348918500E12523 /* lighting_maps_specular.cpp in Sources */,
 				0D3F3A9623473C040025F46D /* colors.cpp in Sources */,
 				0D3F3A99234788EC0025F46D /* basic_lighting_diffuse.cpp in Sources */,
+				0D422665234A17AA00541D50 /* light_casters_soft.cpp in Sources */,
 				0D3B161E2341EF66009D538F /* transformations.cpp in Sources */,
 				5637C9BC233F429C00A2C70B /* stb_image.cpp in Sources */,
+				0D3C590E2348558700E12523 /* materials.cpp in Sources */,
 				0D70D3552344E7800067DD3F /* coordinate_systems_depth.cpp in Sources */,
 				0D3F3A9B23479BFB0025F46D /* basic_lighting_specular.cpp in Sources */,
+				0D422663234A10CB00541D50 /* light_casters_spot.cpp in Sources */,
 				0D3DAC3E234657170053AA45 /* camera_keyboard_dt.cpp in Sources */,
 				5637C91E233F16F800A2C70B /* shaders_class.cpp in Sources */,
 				5637C9C3233F56E800A2C70B /* textures_combined.cpp in Sources */,
+				0D3C591623489C5600E12523 /* lighting_map_emission.cpp in Sources */,
 				5637C92C233F269E00A2C70B /* main.cpp in Sources */,
 				0D3F3A932346F0CE0025F46D /* camera_mouse_zoom.cpp in Sources */,
 				0D3DAC38234627BD0053AA45 /* coordinate_systems_multiple.cpp in Sources */,
+				0D422669234A327600541D50 /* multiple_light.cpp in Sources */,
 				0D6DF372233E4B6100545120 /* hello_triangle_indexed.cpp in Sources */,
 				0D3B161C2341E510009D538F /* glm.cpp in Sources */,
 				5637C915233EFF8E00A2C70B /* shaders_interpolation.cpp in Sources */,
+				0D42265F2349E9D000541D50 /* light_casters_directional.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

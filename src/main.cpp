@@ -1,5 +1,9 @@
 #define MAIN_SPACE(name) namespace name { int main(int argc, char* argv[]); }
 
+namespace Ch00 {
+    MAIN_SPACE(Test)
+}
+
 namespace Ch01 {
     MAIN_SPACE(HelloTriangleIndexed)
     MAIN_SPACE(ShadersInterpolation)
@@ -19,9 +23,19 @@ namespace Ch02 {
     MAIN_SPACE(Colors)
     MAIN_SPACE(BasicLightingDiffuse)
     MAIN_SPACE(BasicLightingSpecular)
+    MAIN_SPACE(Materials)
+    MAIN_SPACE(LightingMapsDiffuse)
+    MAIN_SPACE(LightingMapsSpecular)
+    MAIN_SPACE(LightingMapsEmission)
+    MAIN_SPACE(LightCastersDirectional)
+    MAIN_SPACE(LightCastersPoint)
+    MAIN_SPACE(LightCastersSpot)
+    MAIN_SPACE(LightCastersSoft)
+    MAIN_SPACE(MultipleLight)
 }
 
 int main(int argc, char* argv[])
 {
-    return Ch02::BasicLightingSpecular::main(argc, argv);
+    return Ch02::MultipleLight::main(argc, argv);
+//    return Ch00::Test::main(argc, argv);
 }
