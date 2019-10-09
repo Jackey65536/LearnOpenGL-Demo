@@ -34,8 +34,12 @@ namespace Ch02 {
     MAIN_SPACE(MultipleLight)
 }
 
+namespace Ch03 {
+    MAIN_SPACE(ModelLoading)
+}
+
 int main(int argc, char* argv[])
 {
-    return Ch02::MultipleLight::main(argc, argv);
+    return Ch03::ModelLoading::main(argc, argv);
 //    return Ch00::Test::main(argc, argv);
 }
