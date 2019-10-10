@@ -56,11 +56,11 @@ namespace Ch03 {
             }
             glfwMakeContextCurrent(window);
             glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-//            glfwSetCursorPosCallback(window, mouse_callback);
-//            glfwSetScrollCallback(window, scroll_callback);
+            glfwSetCursorPosCallback(window, mouse_callback);
+            glfwSetScrollCallback(window, scroll_callback);
 
             // tell GLFW to capture our mouse
-//            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
             // glad: load all OpenGL function pointers
             // ---------------------------------------
@@ -107,6 +107,12 @@ namespace Ch03 {
 
                 // don't forget to enable shader before setting uniforms
                 ourShader.use();
+
+                ourShader.setVec3("pointLight.position", glm::vec3(3.0f,  3.0f,  3.0f));
+                ourShader.setFloat("pointLight.constant", 1.0f);
+                ourShader.setFloat("pointLight.linear", 0.09f);
+                ourShader.setFloat("pointLight.quadratic", 0.032f);
+                ourShader.setFloat("shininess", 32.0f);
 
                 // view/projection transformations
                 glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);

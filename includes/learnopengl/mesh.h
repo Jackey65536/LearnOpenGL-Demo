@@ -29,14 +29,16 @@ struct Vertex {
 };
 
 struct Texture {
+    // 纹理id
     unsigned int id;
+    // 类型：漫反射、镜面光反射
     string type;
     string path;
 };
 
 class Mesh {
 public:
-    /*  Mesh Data  */
+    /*  网格数据  */
     vector<Vertex> vertices;
     vector<unsigned int> indices;
     vector<Texture> textures;
@@ -93,7 +95,7 @@ public:
     }
 
 private:
-    /*  Render data  */
+    /*  渲染数据  */
     unsigned int VBO, EBO;
 
     /*  Functions    */
