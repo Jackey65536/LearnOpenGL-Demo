@@ -38,8 +38,15 @@ namespace Ch03 {
     MAIN_SPACE(ModelLoading)
 }
 
+namespace Ch04 {
+    MAIN_SPACE(DepthTesting)
+    MAIN_SPACE(StencilTesting)
+    MAIN_SPACE(BlendingDiscard)
+    MAIN_SPACE(BlendingSorted)
+    MAIN_SPACE(Framebuffers)
+}
+
 int main(int argc, char* argv[])
 {
-    return Ch03::ModelLoading::main(argc, argv);
-//    return Ch00::Test::main(argc, argv);
+    return Ch04::Framebuffers::main(argc, argv);
 }
