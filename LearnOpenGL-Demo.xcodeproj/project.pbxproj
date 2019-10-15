@@ -28,6 +28,7 @@
 		0D6DF372233E4B6100545120 /* hello_triangle_indexed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */; };
 		0D70D3512344D46D0067DD3F /* coordinate_systems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D70D3502344D46D0067DD3F /* coordinate_systems.cpp */; };
 		0D70D3552344E7800067DD3F /* coordinate_systems_depth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D70D3542344E7800067DD3F /* coordinate_systems_depth.cpp */; };
+		0D8199422356166500353954 /* framebuffers_exercise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D8199412356166500353954 /* framebuffers_exercise.cpp */; };
 		5637C8C6233E016200A2C70B /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C8C5233E016200A2C70B /* IOKit.framework */; };
 		5637C8C8233E016700A2C70B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C8C7233E016700A2C70B /* Cocoa.framework */; };
 		5637C8CA233E016E00A2C70B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5637C8C9233E016E00A2C70B /* CoreVideo.framework */; };
@@ -460,6 +461,7 @@
 		0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_triangle_indexed.cpp; sourceTree = "<group>"; };
 		0D70D3502344D46D0067DD3F /* coordinate_systems.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems.cpp; sourceTree = "<group>"; };
 		0D70D3542344E7800067DD3F /* coordinate_systems_depth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems_depth.cpp; sourceTree = "<group>"; };
+		0D8199412356166500353954 /* framebuffers_exercise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = framebuffers_exercise.cpp; sourceTree = "<group>"; };
 		5637C8BA233E00C000A2C70B /* LearnOpenGL-Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LearnOpenGL-Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5637C8C5233E016200A2C70B /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		5637C8C7233E016700A2C70B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -1211,6 +1213,7 @@
 		563E9522235086E9007216B9 /* 4advanced_opengl */ = {
 			isa = PBXGroup;
 			children = (
+				0D8199412356166500353954 /* framebuffers_exercise.cpp */,
 				564B8295235491F0004C8ADC /* framebuffers.cpp */,
 				564B82932354741A004C8ADC /* blending_sorted.cpp */,
 				564B82912354678D004C8ADC /* blending_discard.cpp */,
@@ -1298,6 +1301,7 @@
 				0D3DAC3E234657170053AA45 /* camera_keyboard_dt.cpp in Sources */,
 				564B829023542348004C8ADC /* stencil_testing.cpp in Sources */,
 				564B82922354678D004C8ADC /* blending_discard.cpp in Sources */,
+				0D8199422356166500353954 /* framebuffers_exercise.cpp in Sources */,
 				5637C91E233F16F800A2C70B /* shaders_class.cpp in Sources */,
 				5637C9C3233F56E800A2C70B /* textures_combined.cpp in Sources */,
 				0D3C591623489C5600E12523 /* lighting_map_emission.cpp in Sources */,

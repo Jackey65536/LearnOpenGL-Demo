@@ -44,9 +44,10 @@ namespace Ch04 {
     MAIN_SPACE(BlendingDiscard)
     MAIN_SPACE(BlendingSorted)
     MAIN_SPACE(Framebuffers)
+    MAIN_SPACE(FramebuffersExercise)
 }
 
 int main(int argc, char* argv[])
 {
-    return Ch04::Framebuffers::main(argc, argv);
+    return Ch04::FramebuffersExercise::main(argc, argv);
 }
