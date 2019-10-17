@@ -25,6 +25,7 @@
 		0D422665234A17AA00541D50 /* light_casters_soft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D422664234A17AA00541D50 /* light_casters_soft.cpp */; };
 		0D422667234A302A00541D50 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D422666234A302A00541D50 /* test.cpp */; };
 		0D422669234A327600541D50 /* multiple_light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D422668234A327600541D50 /* multiple_light.cpp */; };
+		0D42D19F2358BFB000349F4C /* cubemaps_skybox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D42D19E2358BFB000349F4C /* cubemaps_skybox.cpp */; };
 		0D6DF372233E4B6100545120 /* hello_triangle_indexed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */; };
 		0D70D3512344D46D0067DD3F /* coordinate_systems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D70D3502344D46D0067DD3F /* coordinate_systems.cpp */; };
 		0D70D3552344E7800067DD3F /* coordinate_systems_depth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D70D3542344E7800067DD3F /* coordinate_systems_depth.cpp */; };
@@ -458,6 +459,7 @@
 		0D422664234A17AA00541D50 /* light_casters_soft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = light_casters_soft.cpp; sourceTree = "<group>"; };
 		0D422666234A302A00541D50 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		0D422668234A327600541D50 /* multiple_light.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiple_light.cpp; sourceTree = "<group>"; };
+		0D42D19E2358BFB000349F4C /* cubemaps_skybox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cubemaps_skybox.cpp; sourceTree = "<group>"; };
 		0D6DF371233E4B6100545120 /* hello_triangle_indexed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hello_triangle_indexed.cpp; sourceTree = "<group>"; };
 		0D70D3502344D46D0067DD3F /* coordinate_systems.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems.cpp; sourceTree = "<group>"; };
 		0D70D3542344E7800067DD3F /* coordinate_systems_depth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinate_systems_depth.cpp; sourceTree = "<group>"; };
@@ -1214,6 +1216,7 @@
 			isa = PBXGroup;
 			children = (
 				0D8199412356166500353954 /* framebuffers_exercise.cpp */,
+				0D42D19E2358BFB000349F4C /* cubemaps_skybox.cpp */,
 				564B8295235491F0004C8ADC /* framebuffers.cpp */,
 				564B82932354741A004C8ADC /* blending_sorted.cpp */,
 				564B82912354678D004C8ADC /* blending_discard.cpp */,
@@ -1316,6 +1319,7 @@
 				0D3B161C2341E510009D538F /* glm.cpp in Sources */,
 				5637C915233EFF8E00A2C70B /* shaders_interpolation.cpp in Sources */,
 				0D42265F2349E9D000541D50 /* light_casters_directional.cpp in Sources */,
+				0D42D19F2358BFB000349F4C /* cubemaps_skybox.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
