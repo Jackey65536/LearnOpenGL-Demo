@@ -46,9 +46,10 @@ namespace Ch04 {
     MAIN_SPACE(Framebuffers)
     MAIN_SPACE(FramebuffersExercise)
     MAIN_SPACE(CubeMapsSkybox)
+    MAIN_SPACE(CubeMapsEvnMapping)
 }
 
 int main(int argc, char* argv[])
 {
-    return Ch04::CubeMapsSkybox::main(argc, argv);
+    return Ch04::CubeMapsEvnMapping::main(argc, argv);
 }

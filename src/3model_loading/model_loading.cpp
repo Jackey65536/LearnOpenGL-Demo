@@ -7,7 +7,7 @@
 
 #include <learnopengl/shader.h>
 #include <learnopengl/camera.h>
-#include <learnopengl/model.h>
+//#include <learnopengl/model.h>
 
 #include <iostream>
 
@@ -80,7 +80,7 @@ namespace Ch03 {
 
             // load models
             // -----------
-            Model ourModel("resources/objects/nanosuit/nanosuit.obj");
+//            Model ourModel("resources/objects/nanosuit/nanosuit.obj");
 
             
             // draw in wireframe
@@ -127,7 +127,7 @@ namespace Ch03 {
                 float angle = glfwGetTime() * 20;
                 model = glm::rotate(model, glm::radians(angle), glm::vec3(0.0f, 1.0f, 0.0f));
                 ourShader.setMat4("model", model);
-                ourModel.Draw(ourShader);
+//                ourModel.Draw(ourShader);
 
 
                 // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)

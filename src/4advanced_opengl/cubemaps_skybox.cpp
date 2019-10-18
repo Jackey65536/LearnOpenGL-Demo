@@ -57,7 +57,7 @@ namespace Ch04 {
             glfwSetCursorPosCallback(window, mouse_callback);
             glfwSetScrollCallback(window, scroll_callback);
             
-            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+//            glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
             
             // GLAD是用来管理OpenGL的函数指针的，所以在调用任何OpenGL的函数之前我们需要初始化GLAD。
             if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
